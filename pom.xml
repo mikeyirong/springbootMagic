@@ -18,6 +18,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- The main class to start by executing java -jar -->
+		<start-class>com.mikespider.springbootMagic.AppStart</start-class>
 	</properties>
 
 	<dependencies>
@@ -74,11 +76,11 @@
 		</dependency>
 	</dependencies>
 	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
-    </plugins>
-</build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
