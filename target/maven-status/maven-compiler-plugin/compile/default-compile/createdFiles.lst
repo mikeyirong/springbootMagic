@@ -1,0 +1,11 @@
+com\mikespider\springbootMagic\mapper\UrlMapper.class
+com\mikespider\springbootMagic\moniter\TestMoniter.class
+com\mikespider\springbootMagic\configuration\SwaggerConfiguration.class
+com\mikespider\springbootMagic\service\UrlService.class
+com\mikespider\api\urlApi\UrlApi.class
+com\mikespider\springbootMagic\configuration\DruidDatasourceConfiguration.class
+com\mikespider\springbootMagic\entity\Url.class
+com\mikespider\springbootMagic\dao\UrlDao.class
+com\mikespider\springbootMagic\moniter\ScheduledTask.class
+com\mikespider\springbootMagic\processor\Productprocessor.class
+com\mikespider\springbootMagic\AppStart.class
